@@ -1,6 +1,7 @@
 #  Cascade Framework
 
-**A hierarchical multi-agent system for cost-optimized LLM inference**
+**A Multi-Layered Agentic Framework for Dynamic
+Model Orchestration**
 
 Cascade implements a 5-layer cognitive architecture that routes tasks to specialized models (SLMs for simple work, LLMs for complex reasoning), achieving **~90% cost reduction** on heterogeneous workloads while maintaining quality.
 
