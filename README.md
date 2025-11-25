@@ -1,4 +1,4 @@
-# 🌊 Cascade Framework
+#  Cascade Framework
 
 **A hierarchical multi-agent system for cost-optimized LLM inference**
 
@@ -6,7 +6,7 @@ Cascade implements a 5-layer cognitive architecture that routes tasks to special
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -61,7 +61,7 @@ Cascade implements a 5-layer cognitive architecture that routes tasks to special
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -103,7 +103,7 @@ docker-compose up cascade-dashboard
 
 ---
 
-## 📊 Benchmarks
+##  Benchmarks
 
 ### Cost Savings (Mixed Workload)
 
@@ -118,12 +118,12 @@ docker-compose up cascade-dashboard
 
 | Benchmark | Cascade | Baseline (70B Direct) | Notes |
 |-----------|---------|----------------------|-------|
-| Heterogeneous Tasks | ✅ High | ✅ High | Web + code + synthesis |
+| Heterogeneous Tasks |  High |  High | Web + code + synthesis |
 | GSM8K (Math) | 25% | 83% | See [Limitations](#-known-limitations) |
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Cascade/
@@ -149,7 +149,7 @@ Cascade/
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 ### Math Reasoning
 
@@ -166,7 +166,7 @@ The current router assigns math tasks to SLMs, which struggle with multi-step ar
 
 ---
 
-## 🔬 Research Context
+##  Research Context
 
 This project implements concepts from:
 
@@ -177,13 +177,13 @@ This project implements concepts from:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - See [LICENSE](LICENSE)
 
 ---
 
-## 🙋 Author
+##  Author
 
 Built as a research internship portfolio project demonstrating:
 - Multi-agent orchestration
