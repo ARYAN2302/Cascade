@@ -186,8 +186,4 @@ MIT License - See [LICENSE](LICENSE)
 
 ##  Author
 
-Built as a research internship portfolio project demonstrating:
-- Multi-agent orchestration
-- Cost-aware LLM routing
-- Tool-augmented generation
-- Production-ready Python architecture
+
