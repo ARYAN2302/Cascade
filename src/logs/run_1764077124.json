@@ -1,0 +1,32 @@
+[
+  {
+    "step_id": 1,
+    "timestamp": 1764077128.259831,
+    "action": "execution",
+    "metadata": {
+      "model": "Research Assistant",
+      "cost": 0.0
+    },
+    "result_snippet": "To retrieve the current stock price of TSLA, the A..."
+  },
+  {
+    "step_id": 2,
+    "timestamp": 1764077129.184557,
+    "action": "execution",
+    "metadata": {
+      "model": "Research Assistant",
+      "cost": 0.0
+    },
+    "result_snippet": "To calculate the value of 10 shares of TSLA, we ne..."
+  },
+  {
+    "step_id": 3,
+    "timestamp": 1764077130.381184,
+    "action": "execution",
+    "metadata": {
+      "model": "Research Assistant",
+      "cost": 0.0
+    },
+    "result_snippet": "**WORKING MEMORY (PREVIOUS STEPS)**\n==============..."
+  }
+]

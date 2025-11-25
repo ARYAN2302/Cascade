@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "ground_truth": 18,
+    "cascade_answer": 18.0,
+    "cascade_correct": true,
+    "baseline_answer": 18.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 2,
+    "ground_truth": 3,
+    "cascade_answer": 2.0,
+    "cascade_correct": false,
+    "baseline_answer": 3.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 3,
+    "ground_truth": 70000,
+    "cascade_answer": 0.2,
+    "cascade_correct": false,
+    "baseline_answer": 70000.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 4,
+    "ground_truth": 540,
+    "cascade_answer": 3.0,
+    "cascade_correct": false,
+    "baseline_answer": 540.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 5,
+    "ground_truth": 20,
+    "cascade_answer": 20.0,
+    "cascade_correct": true,
+    "baseline_answer": 3.0,
+    "baseline_correct": false
+  },
+  {
+    "id": 6,
+    "ground_truth": 64,
+    "cascade_answer": 93.0,
+    "cascade_correct": false,
+    "baseline_answer": 64.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 7,
+    "ground_truth": 240,
+    "cascade_answer": 20.0,
+    "cascade_correct": false,
+    "baseline_answer": 240.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 8,
+    "ground_truth": 160,
+    "cascade_answer": 0.4,
+    "cascade_correct": false,
+    "baseline_answer": 160.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 9,
+    "ground_truth": 2,
+    "cascade_answer": 80.0,
+    "cascade_correct": false,
+    "baseline_answer": 2.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 10,
+    "ground_truth": 460,
+    "cascade_answer": 460.0,
+    "cascade_correct": true,
+    "baseline_answer": 460.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 11,
+    "ground_truth": 366,
+    "cascade_answer": 60.0,
+    "cascade_correct": false,
+    "baseline_answer": 366.0,
+    "baseline_correct": true
+  },
+  {
+    "id": 12,
+    "ground_truth": 694,
+    "cascade_answer": 1026.0,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 13,
+    "ground_truth": 13,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 14,
+    "ground_truth": 18,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 15,
+    "ground_truth": 60,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 16,
+    "ground_truth": 125,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 17,
+    "ground_truth": 160,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 18,
+    "ground_truth": 57500,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 19,
+    "ground_truth": 7,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  },
+  {
+    "id": 20,
+    "ground_truth": 3,
+    "cascade_answer": null,
+    "cascade_correct": false,
+    "baseline_answer": null,
+    "baseline_correct": false
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is the capital of France?",
+    "difficulty": "easy",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 2,
+    "prompt": "Write a Python function to calculate the Fibonacci sequence recursively.",
+    "difficulty": "medium",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 3,
+    "prompt": "Explain the difference between TCP and UDP.",
+    "difficulty": "easy",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 4,
+    "prompt": "Design a system architecture for a scalable e-commerce platform handling 1M concurrent users. Discuss DB sharding and caching strategies.",
+    "difficulty": "hard",
+    "expected_route": "LLM"
+  },
+  {
+    "id": 5,
+    "prompt": "Convert 100 Celsius to Fahrenheit.",
+    "difficulty": "easy",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 6,
+    "prompt": "Who wrote 'To Kill a Mockingbird'?",
+    "difficulty": "easy",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 7,
+    "prompt": "Analyze the socio-economic impact of the Industrial Revolution on urban migration patterns.",
+    "difficulty": "hard",
+    "expected_route": "LLM"
+  },
+  {
+    "id": 8,
+    "prompt": "Write a regex to validate an email address.",
+    "difficulty": "medium",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 9,
+    "prompt": "Summarize the main plot points of the movie 'The Matrix'.",
+    "difficulty": "medium",
+    "expected_route": "SLM"
+  },
+  {
+    "id": 10,
+    "prompt": "Solve: 25 * 4 + 100 / 2.",
+    "difficulty": "easy",
+    "expected_route": "SLM"
+  }
+]

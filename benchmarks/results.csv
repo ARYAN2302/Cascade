@@ -1,0 +1,11 @@
+id,difficulty,cascade_route,expected_route,cascade_cost,baseline_cost,savings_pct
+1,easy,SLM,SLM,0.00025,0.024,99.0
+2,medium,LLM,SLM,0.00925,0.024,61.5
+3,easy,LLM,SLM,0.00925,0.024,61.5
+4,hard,LLM,LLM,0.024,0.024,0.0
+5,easy,SLM,SLM,0.00025,0.024,99.0
+6,easy,SLM,SLM,0.00025,0.024,99.0
+7,hard,LLM,LLM,0.024,0.024,0.0
+8,medium,LLM,SLM,0.00925,0.024,61.5
+9,medium,SLM,SLM,0.00025,0.024,99.0
+10,easy,SLM,SLM,0.00025,0.024,99.0

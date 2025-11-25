@@ -1,0 +1,22 @@
+[
+  {
+    "step_id": "T1-S1",
+    "timestamp": 1764082469.308386,
+    "action": "execution",
+    "metadata": {
+      "turn": 1,
+      "model": "Research Assistant"
+    },
+    "result_snippet": "To fetch the current Ethereum price, I'll check th..."
+  },
+  {
+    "step_id": "T1-S2",
+    "timestamp": 1764082470.331133,
+    "action": "execution",
+    "metadata": {
+      "turn": 1,
+      "model": "Python Expert"
+    },
+    "result_snippet": "To calculate the cost of buying 15.5 ETH, we'll us..."
+  }
+]
