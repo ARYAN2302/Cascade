@@ -217,6 +217,7 @@ MIT License - See [LICENSE](LICENSE)
 
 ---
 
+<<<<<<< HEAD
 ## 👤 Author
 **Aryan** - [GitHub](https://github.com/ARYAN2302)
 
@@ -228,3 +229,7 @@ Built as a research internship portfolio project demonstrating:
 
 ---
 **Star ⭐ the repo if you find it useful!**
+=======
+##  Author
+wait
+>>>>>>> cb638c9 (readme changes)
