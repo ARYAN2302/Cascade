@@ -14,7 +14,7 @@
 ## 📄 Research Paper
 For a detailed analysis of the architecture, mathematical formulation, and full benchmark results, please read the accompanying technical report:
 <br>
-👉 **[Read the Research Report (PDF)](Cascade_Report.pdf)**
+👉 **[Read the Research Report (PDF)](paper/Cascade_Report.pdf)**
 
 ---
 
@@ -53,7 +53,7 @@ Cascade achieves massive savings by successfully routing **80% of subtasks** to 
 | **Total Inference Cost** | $0.2400 | **$0.0158** | **93.38% Savings** |
 | **Avg. Latency** | 1.44s | 15.00s | +940% (Tradeoff) |
 
-![Cost Analysis](benchmarks/figure2_results.png)
+![Cost Analysis](figure2_results.png)
 
 ### 2. Reasoning Boundaries (The "Verifier Paradox")
 While efficient for tool-use and coding, the system exhibits performance degradation on symbolic logic tasks (GSM8K), revealing a trade-off between decomposition and reasoning fidelity.
