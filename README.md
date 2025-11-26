@@ -57,6 +57,8 @@ Cascade achieves massive savings by successfully routing **80% of subtasks** to 
 
 ### 2. Reasoning Boundaries (The "Verifier Paradox")
 While efficient for tool-use and coding, the system exhibits performance degradation on symbolic logic tasks (GSM8K), revealing a trade-off between decomposition and reasoning fidelity.
+But this can easily be solved by adding more slms to the model pool for specific tasks eg- a math model.
+And the system is scalable to use more models as needed.
 
 * **Enterprise Automation:** 99% Routing Success (High Efficiency)
 * **Symbolic Math:** 25% Accuracy vs 50% Baseline (Low Reasoning)
