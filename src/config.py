@@ -1,5 +1,10 @@
 """Model configuration for Cascade Framework."""
+import os
+from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+
+# Load environment variables from .env file
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 # SLM specialists (8B) - Cost-effective for focused tasks
 slm_researcher = ChatGroq(model="llama-3.1-8b-instant", temperature=0.2)

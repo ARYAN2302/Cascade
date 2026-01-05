@@ -1,25 +1,42 @@
 """ToolKit - Real tools for web search (Tavily) and Python execution."""
 import os
+from dotenv import load_dotenv
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_experimental.utilities import PythonREPL
+
+# Load environment variables
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 class ToolKit:
     def __init__(self):
         print(">>> [System] Initializing ToolKit (Tavily + Python REPL)...")
         
-        if not os.getenv("TAVILY_API_KEY"):
-            print("⚠️ WARNING: TAVILY_API_KEY not found. Web search will fail.")
-        
-        self.search_tool = TavilySearchResults(max_results=3)
+        # Initialize Tavily only if API key is present to avoid hard crash
+        tavily_key = os.getenv("TAVILY_API_KEY")
+        if not tavily_key:
+            print("⚠️ WARNING: TAVILY_API_KEY not found. Web search disabled.")
+            self.search_tool = None
+        else:
+            try:
+                self.search_tool = TavilySearchResults(max_results=3)
+            except Exception as e:
+                print(f"⚠️ Tavily initialization failed: {e}")
+                self.search_tool = None
+
+        # Python REPL (use container isolation in production)
         self.python_repl = PythonREPL()  # Note: Use Docker/E2B in production
 
     def run(self, tool_name, query):
         """Execute tool and return results."""
         try:
             if tool_name == "web_search":
+                # If no API key / tool available, return a friendly message instead of crashing
+                if not self.search_tool:
+                    return "Web search unavailable: TAVILY_API_KEY not configured."
+
                 print(f"    [Tool 🔍] Searching: '{query[:50]}...'")
                 results = self.search_tool.invoke(query)
-                
+
                 summary = ""
                 for res in results:
                     summary += f"- {res['content'][:300]}...\n  (Source: {res['url']})\n"
